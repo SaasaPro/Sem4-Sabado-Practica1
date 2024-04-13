@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Jersey';
+    src: url(./../fonts/Jersey10-Regular.ttf) format('truetype');
+}
+
+body{
+    font-family: 'Jersey';
+    font-size: 2em;
+    background-image: url(./../img/moroccan-flower.png);
+}
+
+.logo{
+    width: 150px;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color: rgb(160, 50, 163);
+    font-size: 4em;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+main{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+h2{
+    color: rgb(160,50,163, 0.9);
+    font-size: 60px;
+    text-transform: uppercase;
+}
+h3{
+    color: rgb(15,140,92);
+    font-size: 40px;
+    text-decoration: underline;
+}
+.noticia{
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+section{
+    border: 3px solid #F7D773;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+figure{
+    text-align: center;
+    margin-bottom: 0;
+}
+footer{
+    text-align: right;
+}

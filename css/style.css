@@ -11,9 +11,39 @@ body{
 
 .logo{
     width: 150px;
+    transition: all 1s ease-in;
+}
+
+.logo:hover{
+    transform: rotate(-360deg);
 }
 a{
     text-decoration: none;
+    color: blue;
+}
+ul{
+    list-style: none;
+    text-align: center;
+
+    
+}
+
+li{
+    display: inline;
+    padding-right: 5px;
+    margin: 5px;
+}
+
+.menu{
+    color: blue;
+    background-color: gold;
+    border-radius: 5px;
+    transition: all 1s ease-in;
+}
+
+.menu:hover{
+    color: gold;
+    background-color: blue;
 }
 
 h1{
@@ -23,9 +53,16 @@ h1{
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
+    text-shadow: 10px 10px 30px rgb(69, 67, 67);
+    animation: h1shadow 1.5s infinite alternate
 
 }
 
+@keyframes h1shadow {
+    from {text-shadow: 10px 10px 30px black;}
+    to {text-shadow: 20px 20px 30px black;}
+    
+}
 main{
     margin-top: 10px;
     padding-left: 10px;
@@ -43,6 +80,12 @@ h3{
 .noticia{
     border: 3px solid black;
     border-radius: 20px;
+    width: 30%;
+    transition: width 0.5s ease-in-out;
+}
+
+.noticia:hover{
+    width: 40%;
 }
 
 section{
@@ -55,6 +98,11 @@ figure{
     text-align: center;
     margin-bottom: 0;
 }
+
+#subscribe{
+    text-align: center;
+}
 footer{
     text-align: right;
 }
+

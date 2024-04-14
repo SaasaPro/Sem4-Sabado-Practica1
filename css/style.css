@@ -9,6 +9,7 @@ body{
     background-image: url(./../img/moroccan-flower.png);
 }
 
+
 .logo{
     width: 150px;
     transition: all 1s ease-in;
@@ -37,8 +38,9 @@ li{
 .menu{
     color: blue;
     background-color: gold;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: all 1s ease-in;
+    padding: 10px;
 }
 
 .menu:hover{
